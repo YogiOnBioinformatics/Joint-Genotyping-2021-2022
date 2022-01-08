@@ -9,3 +9,4 @@ This repository contains all the information to reproduce the Joint Genotyping r
 3. `./data_engineering/delete_duplicates/notebook/choose_representative_sample.ipynb`
 4. `./data_engineering/delete_duplicates/output/remove_repeated_samples_data.sh`
 5. `./sentieon_joint_genotyping/gvcf_input_file/scripts/create_gvcf_sorted_input_list.sh`
+6. `./sentieon_joint_genotyping/shards/notebook/create_shards.ipynb`
