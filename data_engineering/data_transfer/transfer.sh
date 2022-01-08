@@ -30,3 +30,10 @@ rsync -avr --human-readable --progress \
     -e "ssh -i /home/yraghav/clusters/c3ddb-cluster/linux/c3ddb-key" \
     /pool/data/globus/genomics_base/Sentieon_JG_Fall_2021/input_data/ \
     yraghav@c3ddb-globus.mit.edu:/scratch/users/yraghav/JG_2021_VCF_data/ 
+    
+# rsync FASTA input data
+rsync -avr --human-readable --progress \
+    -e "ssh -i /home/yraghav/clusters/c3ddb-cluster/linux/c3ddb-key" \
+    /pool/data/globus/genomics_base/download_hg38_reference_09_14_2020/GRCh38_full_analysis_set_plus_decoy_hla.fa \
+    /pool/data/globus/genomics_base/download_hg38_reference_09_14_2020/GRCh38_full_analysis_set_plus_decoy_hla.fa.fai \
+    yraghav@c3ddb-globus.mit.edu:/scratch/users/yraghav/Joint_Genotyping_inputs/fasta/
