@@ -5,4 +5,4 @@
 # NOTE: very important to sort the files and use same list for all JG shards
 find /scratch/users/yraghav/JG_2021_VCF_data/ \
     -iname "*.vcf.gz" -type f | sort > \
-    /scratch/users/yraghav/Joint_Genotyping_inputs/input_file_list/list.txt
+    /scratch/users/yraghav/inputs/input_file_list/list.txt
