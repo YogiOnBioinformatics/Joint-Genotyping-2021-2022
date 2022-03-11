@@ -14,6 +14,7 @@ scripts_dir = "/scratch/users/yraghav/output/SLURM/scripts"
 error_dir = "/scratch/users/yraghav/output/SLURM/error"
 output_dir = "/scratch/users/yraghav/output/SLURM/output"
 shards_file = "/scratch/users/yraghav/inputs/shards/shards.txt"
+JG_output_dir = "/scratch/users/yraghav/output/Joint_Genotyping"
 
 memory="250GB"
 num_nodes = "1"
@@ -103,11 +104,12 @@ for shard in shards:
         out_file.write("\n\n")
 
         out_file.write(
-            "{} driver -t {} --traverse_param 10000/200 --shard {} -r {} --algo GVCFtyper {}.vcf.gz - < {} \n".format(
+            "{} driver -t {} --traverse_param 10000/200 --shard {} -r {} --algo GVCFtyper {}/{}.vcf.gz - < {} \n".format(
                 sentieon_exec,
                 num_threads,
                 shard,
                 reference_fasta,
+                JG_output_dir,
                 hyphenated_shard,
                 input_file_list
             ) 
