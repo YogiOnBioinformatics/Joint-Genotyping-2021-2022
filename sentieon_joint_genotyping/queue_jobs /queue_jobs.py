@@ -70,7 +70,7 @@ for error_file in error_files:
         shards.remove("{}:{}-{}".format(
                 error_file.split("/")[-1].split(".")[0].split("-")[0],
                 error_file.split("/")[-1].split(".")[0].split("-")[1],
-                error_file.split("/")[-1].split(".")[0].split("-")[2]
+                error_file.split("/")[-1].split(".")[0].split("-")[2].split("_")[0]
             )
         )
 
