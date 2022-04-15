@@ -10,3 +10,4 @@ This repository contains all the information to reproduce the Joint Genotyping r
 4. `./data_engineering/delete_duplicates/output/remove_repeated_samples_data.sh`
 5. `./sentieon_joint_genotyping/gvcf_input_file/scripts/create_gvcf_sorted_input_list.sh`
 6. `./sentieon_joint_genotyping/shards/notebook/create_shards.ipynb`
+7. `/home/yraghav/Joint-Genotyping-Fall-2021/sentieon_joint_genotyping/queue_jobs/queue_jobs.py`
