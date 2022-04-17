@@ -25,3 +25,8 @@ This repository contains all the information to reproduce the Joint Genotyping r
 <img src="https://i0.wp.com/images.squarespace-cdn.com/content/v1/5ea57eb1c6398826cb20f779/1594826700669-UQCPD472Z3CX8X5LTZOX/ke17ZwdGBToddI8pDm48kP8w85gLkngkQ_FRn7mAj8hZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwQubD-KGwRVfwb6ubM5SVMDJduzuVpMDxbTfRxfdLPF9Og1AwerCUiOkKpDB0uqgQ/0*OEe5JlQ3xsgl6saO.png?w=1160&ssl=1">
 
 [Source](https://dnastack.com/joint-genotyping-10k-whole-genome-sequences-using-sentieon-on-google-cloud-strategies-for-analyzing-large-sample-sets/)
+
+## Shard Size VS Cores Grid Search
+You can find a `Grid Search` comparing `Shard Size` and `number of cores` for the `C3DDB` and `Engaging` clusters under: 
+<br>
+`HPC_options_benchmarking/`
