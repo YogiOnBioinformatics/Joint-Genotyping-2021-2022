@@ -17,6 +17,7 @@ This repository contains all the information to reproduce the Joint Genotyping r
 6. `sentieon_joint_genotyping/shards/notebook/create_shards.ipynb`
 7. `sentieon_joint_genotyping/queue_jobs/queue_jobs.py`
 8. `data_engineering/data_transfer/transfer_to_MIT_Answer.sh`
+9. `JG_validation/notebooks/validations.ipynb`
 <br>
 
 ## Representative Overview Figure: 
