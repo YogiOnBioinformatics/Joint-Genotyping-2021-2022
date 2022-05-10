@@ -18,6 +18,7 @@ This repository contains all the information to reproduce the Joint Genotyping r
 7. `sentieon_joint_genotyping/queue_jobs/queue_jobs.py`
     * NOTE: every SLURM script and its output can be found under: `sentieon_joint_genotyping/SLURM/`
 8. `data_engineering/data_transfer/transfer_to_MIT_Answer.sh`
+9. `JG_validation/notebooks/validations.ipynb`
 <br>
 
 ## Representative Overview Figure: 
