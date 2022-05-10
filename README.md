@@ -16,6 +16,7 @@ This repository contains all the information to reproduce the Joint Genotyping r
 5. `sentieon_joint_genotyping/gvcf_input_file/scripts/create_gvcf_sorted_input_list.sh`
 6. `sentieon_joint_genotyping/shards/notebook/create_shards.ipynb`
 7. `sentieon_joint_genotyping/queue_jobs/queue_jobs.py`
+    * NOTE: every SLURM script and its output can be found under: `sentieon_joint_genotyping/SLURM/`
 8. `data_engineering/data_transfer/transfer_to_MIT_Answer.sh`
 <br>
 
